@@ -2,9 +2,8 @@
 	box-sizing: content-box;
 }
 body {
-	color: black;
-	background-image: black;
-	font-family: 'Pompiere-Regular;
+	background-color: white;
+	font-family: 'Pompiere-Regular';
 	font-size: 40px;
 	margin: 0;
 	padding: 0;
