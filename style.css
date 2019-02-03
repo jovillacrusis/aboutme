@@ -4,13 +4,21 @@
 body {
 	color: black;
 	background-image: black;
-	font-family: helvetica, arial, sans-serif;
+	font-family: 'Pompiere;
+	font-family: 'Pompiere-Regular;
 	margin: 0;
 	padding: 0;
 	text-align: center;
 	font-size: 24px;
 	height: 100vh;
 }
+
+@font-face {
+    font-family: 'Pompiere-Regular';
+    src: url(./css/font/Pompiere-Regular);
+    src: url('Pompiere-Regular.otf');
+}
+
 img {
 	max-width: 100%;
 	height: auto;
@@ -76,7 +84,7 @@ main {
     position:absolute;    
     color:black;
     font-size:24px;
-    font-weight:bold;
+    font-weight:regular;
     left:160px;
     top:400px;
 }
