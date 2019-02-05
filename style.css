@@ -32,9 +32,9 @@ main {
 	height: 14em;
 	border-radius: 0%;
 	overflow: hidden;
-    background-image: url(images/me.png);
+   /* background-image: url(images/me.png);
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     transform: scale(0.25);
     transition: transform 6s, box-shadow 3s;
     
@@ -60,7 +60,7 @@ main {
 	height: 1.5em;
 	cursor: pointer;
 	padding: 0;
-	background-color: green;
+	background-color: #8AA543;
 	color: black;
 	line-height: 1.4;
 	border-radius: 50%;
@@ -88,8 +88,27 @@ main {
 }
 
 
-
-
+.family {
+	text-align: center;
+}
+.family img {
+	width: 10em;
+	vertical-align: middle;
+}
+.family .text {
+	display: inline-block;
+	font-size: 1.5em;
+	vertical-align: middle;
+}
+.family .text span {
+	display: block;
+	font-size: 0.75em;
+}
+.description {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+}
 
 
 
