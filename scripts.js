@@ -18,20 +18,36 @@ function zoom() {
 }
 
 
+// show descriptions
+var images = document.querySelectorAll('img')
+var description = document.querySelector('.description')
+
+for (var i = 0; i < images.length; i++) {
+	images[i].addEventListener('click', showDescription)
+}
+
+
+
+function showDescription() {
+	description.textContent = this.alt
+}
+
+
+
 // Hover Text
 
-var item = document.getElementById(".me");
-item.addEventListener("mouseover", func, false);
-item.addEventListener("mouseout", func1, false);
+// var item = document.getElementById(".me");
+// item.addEventListener("mouseover", func, false);
+// item.addEventListener("mouseout", func1, false);
 
-function func()
-{   
-   document.getElementById("text").setAttribute("style", "display:block;")
-}
+// function func()
+// {   
+//    document.getElementById("text").setAttribute("style", "display:block;")
+// }
 
-function func1()
-{  
-    document.getElementById("text").setAttribute("style", "display:none;")
-}
+// function func1()
+// {  
+//     document.getElementById("text").setAttribute("style", "display:none;")
+// }
 
 
