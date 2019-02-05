@@ -106,7 +106,7 @@ main {
 }
 .description {
 	position: absolute;
-	top: 1em;
+	bottom: 20em;
 	left: 1em;
 }
 
